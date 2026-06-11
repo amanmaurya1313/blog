@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NovaBlog</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+
+<div class="gradient-bg"></div>
+
+<nav>
+
+<div class="logo">NovaBlog</div>
+
+<div class="nav-links" id="navLinks">
+
+<a href="index.html">Home</a>
+<a href="#blogs">Blogs</a>
+<a href="contact.html">Contact</a>
+
+<button id="themeToggle">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+</div>
+
+<div class="menu-btn" id="menuBtn">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Explore Modern Tech Stories</h1>
+
+<p>
+Discover articles about web development,
+design systems, AI and the future of tech.
+</p>
+
+<a href="#blogs" class="btn">
+Explore Blogs
+</a>
+
+</div>
+
+</section>
+
+<section class="search-section">
+
+<input
+type="text"
+id="searchBox"
+placeholder="Search Articles..."
+>
+
+</section>
+
+<section class="filters">
+
+<button class="filter-btn active" data-filter="all">
+All
+</button>
+
+<button class="filter-btn" data-filter="css">
+CSS
+</button>
+
+<button class="filter-btn" data-filter="javascript">
+JavaScript
+</button>
+
+<button class="filter-btn" data-filter="design">
+Design
+</button>
+
+</section>
+
+<section class="blog-container" id="blogs">
+
+<div class="blog-card css">
+
+<img src="images/blog1.jpg">
+
+<div class="card-content">
+
+<span>June 2026</span>
+
+<h2>Mastering Modern CSS</h2>
+
+<p>
+Learn Grid, Flexbox and advanced CSS effects.
+</p>
+
+<a href="blog1.html">
+Read More →
+</a>
+
+</div>
+
+</div>
+
+<div class="blog-card javascript">
+
+<img src="images/blog2.jpg">
+
+<div class="card-content">
+
+<span>June 2026</span>
+
+<h2>JavaScript Trends 2026</h2>
+
+<p>
+Explore the future of frontend development.
+</p>
+
+<a href="blog2.html">
+Read More →
+</a>
+
+</div>
+
+</div>
+
+<div class="blog-card design">
+
+<img src="images/blog3.jpg">
+
+<div class="card-content">
+
+<span>June 2026</span>
+
+<h2>UI Design Secrets</h2>
+
+<p>
+Create beautiful and engaging interfaces.
+</p>
+
+<a href="blog3.html">
+Read More →
+</a>
+
+</div>
+
+</div>
+
+<div class="blog-card javascript">
+
+<img src="images/blog4.jpg">
+
+<div class="card-content">
+
+<span>June 2026</span>
+
+<h2>React Performance Guide</h2>
+
+<p>
+Boost performance in large React apps.
+</p>
+
+<a href="blog4.html">
+Read More →
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<button id="topBtn">
+<i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<footer>
+
+<h3>NovaBlog</h3>
+
+<p>
+Designed with HTML, CSS & JavaScript
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
